@@ -1,0 +1,66 @@
+# ================= Python =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================= Jupyter Notebooks =================
+.ipynb_checkpoints
+
+# ================= IDE / Editors =================
+.vscode/
+.idea/
+*.swp
+
+# ================= OS Files =================
+.DS_Store
+Thumbs.db
+
+# ================= Data Files =================
+*.csv
+*.xlsx
+*.xls
+*.log
+
+# Allow specific small CSV files to be committed
+!top_correlated_pairs.csv
+!trade_log.csv
+!equity_curve.csv
+
+# ================= Generated Images =================
+*.png
+*.jpg
+*.jpeg
+
+# Allow specific generated charts to be committed (remove if not needed)
+!correlation_heatmap_top50.png
+!dendrogram.png
+!equity_curve.png
+
+# ================= MongoDB =================
+data/db/
+dump/
+
+# ================= Docker Volumes =================
+volumes/
