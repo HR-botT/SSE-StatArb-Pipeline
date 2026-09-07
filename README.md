@@ -1,5 +1,7 @@
 # SSE-StatArb-Pipeline
 
+![CI](https://github.com/HR-botT/SSE-StatArb-Pipeline/actions/workflows/ci.yml/badge.svg)
+
 A complete statistical arbitrage pipeline for the **Shanghai Stock Exchange (SSE)**: data engineering, correlation analysis, clustering, and pairs trading backtest.
 
 > **Disclaimer**: This project is for educational and research purposes only. It does not constitute investment advice.
