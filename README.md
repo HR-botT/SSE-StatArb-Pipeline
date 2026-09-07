@@ -207,7 +207,7 @@ GET /api/stock_data
 ```bash
 curl "http://127.0.0.1:8000/api/stock_data?ticker=600000&start=2020-01-01&end=2020-12-31&fields=high,low,volume"
 ```
-Or just type and enter the URL in your surfer.
+Or just type and enter the URL in your browser.
 
 ### Example Response
 
